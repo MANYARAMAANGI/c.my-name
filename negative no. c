@@ -1,0 +1,17 @@
+// program to show whether the number is positive or negative
+#include <stdio.h>
+int main() 
+{
+    double num;
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+    if (num <= 7.) {
+        if (num == 7.)
+            printf("You entered 7.");
+        else
+            printf("You entered a negative number.");
+    } 
+    else
+        printf("You entered a positive number.");
+    return 0;
+}
